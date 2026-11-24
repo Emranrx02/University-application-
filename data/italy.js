@@ -1,0 +1,222 @@
+const italySeed = [
+  {
+    "id": "it-turin",
+    "country": "Italy",
+    "university": "University of Turin",
+    "program": "CS / IT — programme to confirm",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "2027-01-29",
+    "applied": "",
+    "followup": "",
+    "fee": "€70 (reported; verify)",
+    "update": "Verify official 2027/28 call",
+    "url": "https://en.unito.it/studying-unito/international-degree-seeking-students/application-international-students",
+    "notes": "Research shortlist — not freshly verified. Reported opening 25 Nov 2026. MOI and late IELTS not confirmed. EDISU Piemonte.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-genoa",
+    "country": "Italy",
+    "university": "University of Genoa",
+    "program": "Computer Science / Computer Engineering",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "€30 (previous call; verify)",
+    "update": "Verify official 2027/28 call",
+    "url": "https://unige.it/en/international-enrolment",
+    "notes": "Research shortlist — not freshly verified. Expected mid-December opening; prior MOI policy needs reconfirmation. ALiSEO.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-insubria",
+    "country": "Italy",
+    "university": "University of Insubria",
+    "program": "M.Sc. Computer Science",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.uninsubria.eu/services/uninsubria-living/enrollment-and-applications/enrollment-procedures/assessment-personal",
+    "notes": "Research shortlist — not freshly verified. English B2; prior English-medium degree policy reported. Confirm 2027/28 call and scholarship.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-pisa",
+    "country": "Italy",
+    "university": "University of Pisa",
+    "program": "Computer Engineering / AI and Data Engineering",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "2027-02-01",
+    "applied": "",
+    "followup": "",
+    "fee": "€30 (reported; verify)",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unipi.it/",
+    "notes": "Research shortlist — not freshly verified. Reported B2 four-skills certificate required; MOI alone not sufficient. DSU Toscana.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-modena",
+    "country": "Italy",
+    "university": "University of Modena and Reggio Emilia",
+    "program": "AI Engineering",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unimore.it/",
+    "notes": "Research shortlist — not freshly verified. Check academic threshold and B2 test option. ER.GO.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-naples",
+    "country": "Italy",
+    "university": "University of Naples Federico II",
+    "program": "Data Science",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unina.it/",
+    "notes": "Research shortlist — not freshly verified. Check academic eligibility and B2 certificate. ADISURC.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-parma",
+    "country": "Italy",
+    "university": "University of Parma",
+    "program": "CS / IT — programme to confirm",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unipr.it/",
+    "notes": "Research shortlist — not freshly verified. Call and MOI policy not confirmed. ER.GO.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-salerno",
+    "country": "Italy",
+    "university": "University of Salerno",
+    "program": "CS / IT — programme to confirm",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unisa.it/",
+    "notes": "Research shortlist — not freshly verified. Call and MOI policy not confirmed. ADISURC.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-padua",
+    "country": "Italy",
+    "university": "University of Padua",
+    "program": "CS / IT — programme to confirm",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unipd.it/en/",
+    "notes": "Research shortlist — not freshly verified. Check programme-specific academic eligibility and call. Regional scholarship.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "it-messina",
+    "country": "Italy",
+    "university": "University of Messina",
+    "program": "CS / IT — programme to confirm",
+    "intake": "2027/28",
+    "status": "Planned",
+    "deadline": "",
+    "applied": "",
+    "followup": "",
+    "fee": "Not confirmed",
+    "update": "Verify official 2027/28 call",
+    "url": "https://www.unime.it/",
+    "notes": "Research shortlist — not freshly verified. Reported early call 1–20 Dec; verify language and document requirements. ERSU.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  }
+];
