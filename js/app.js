@@ -9,6 +9,7 @@ function syncAdmin(){for(const id of ['add','import','workspaceNotes']){const el
 const countryOf=x=>x.country||(x.intake==='2027/28'?'Italy':'Germany');
 let data,editing=null;try{data=JSON.parse(localStorage.getItem(KEY))||structuredClone(seed)}catch{data=structuredClone(seed)}
 try{if(!localStorage.getItem(KEY+'-italy-added')){data.push(...italySeed.filter(x=>!data.some(y=>y.id===x.id)));localStorage.setItem(KEY,JSON.stringify(data));localStorage.setItem(KEY+'-italy-added','1')}}catch{}
+try{if(!localStorage.getItem(KEY+'-pavia-added')){if(!data.some(x=>x.id==='it-pavia'||/pavia/i.test(x.university)))data.push(structuredClone(italySeed.find(x=>x.id==='it-pavia')));localStorage.setItem(KEY,JSON.stringify(data));localStorage.setItem(KEY+'-pavia-added','1')}}catch{}
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=d=>d?new Date(d+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):'Not recorded';
 function days(d){const now=new Date(),today=new Date(now.getFullYear(),now.getMonth(),now.getDate());return Math.round((new Date(d+'T00:00:00')-today)/86400000)}
