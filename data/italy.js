@@ -1,5 +1,27 @@
 const italySeed = [
   {
+    "id": "it-pavia",
+    "country": "Italy",
+    "university": "University of Pavia",
+    "program": "M.Sc. Computer Engineering",
+    "intake": "2027/28",
+    "status": "Preparing",
+    "deadline": "2026-11-18",
+    "applied": "",
+    "followup": "",
+    "fee": "€35 paid",
+    "update": "Expected result 18 December 2026 — verify portal",
+    "url": "https://apply.unipv.eu/",
+    "notes": "Payment confirmed 17 November 2026. Final submission status not independently confirmed; check portal receipt.",
+    "documents": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "id": "it-turin",
     "country": "Italy",
     "university": "University of Turin",
